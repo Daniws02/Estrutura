@@ -35,6 +35,8 @@ namespace App
             
             Pessoas.Add(new User(3, "Pessoa3", 1));
 
+            Pessoas.Add(new User(4, "Pessoa4", 1));
+
             Tipos.Add(new Type(1, "Pessoas Física"));
 
             Key.Restrition(Pessoas, Tipos);
